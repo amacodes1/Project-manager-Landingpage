@@ -1,0 +1,227 @@
+* .head {
+    text-align: center;
+}
+.link a {
+    text-decoration: none;
+    color: rgb(117, 116, 116);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+}
+.head2 .profile{
+    border-radius: 150px;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+.head2{
+    position: relative;
+}
+.john{
+    margin-top: 10%;
+}
+.john h2{
+    text-transform: uppercase;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.john h3{
+    text-transform: capitalize;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.john img{
+    border-radius: 20px;
+    padding: 5px;
+}
+.strong{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+}
+.middle{
+    background-image: url(images/section-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1200px;
+    font-weight: bold;
+    z-index: 1;
+}
+.overlay{
+    background-color: rgba(62, 24, 231, 0.6);
+    width: 100%;
+    height: 1200px;
+}
+
+.middle #about, #experience, #download{
+    color: white;
+}
+.middle #experience{
+    background-color: rgb(163, 161, 161);
+    position: relative;
+    height: 500px;
+    width: 100%;
+    margin-top: 12%;
+}
+.middle #experience h2{
+    color: black;
+    position: absolute;
+    top: 30px;
+    right: 45%;
+    text-transform: uppercase;
+}
+
+
+#about span{
+    color: rgb(41, 207, 41);
+}
+#download{
+    margin-top: 5%;
+}
+.button{
+    background-color: rgb(7, 211, 7);
+    height: 30px;
+    width: 90px;
+    border-style: hidden;
+    border-radius: 20px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.google {
+    box-shadow: 1px 1px 10px rgb(160, 145, 145);
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    width: 550px;
+    height: 300px;
+    padding: 20px;
+    padding-top: 20px;
+    position: absolute;
+    left: 60px;
+    top: 120px;
+}
+.alabian {
+    box-shadow: 1px 1px 10px rgb(160, 145, 145);
+    background-color: white;
+    color: black;
+    position: absolute;
+    right: 70px;
+    top: 120px;
+    width: 550px;
+    height: 300px;
+    padding: 20px;
+    padding-top: 20px;
+    border-radius: 30px;
+}
+.google .googleimg{
+    height: 60px;
+    width: 60px;
+    margin-right: 95%;
+    margin-top: 5px;
+    position: relative;
+}
+.google h3{
+    position: absolute;
+    left: 89px;
+    bottom: 82%;
+}
+.google h4{
+    position: absolute;
+    left: 89px;
+    bottom: 75%;
+}
+.google p{
+    position: absolute;
+    left: 89px;
+    bottom: 70%;
+}
+.google ul{
+    text-align: left;
+    margin-left: 30px;
+    margin-inline: 20px;
+}
+.alabian .alabianimg{
+    height: 60px;
+    width: 60px;
+    margin-right: 95%;
+    margin-top: 5px;
+    position: relative;
+}
+.alabian h3{
+    position: absolute;
+    left: 89px;
+    bottom: 82%;
+}
+.alabian h4{
+    position: absolute;
+    left: 89px;
+    bottom: 73%;
+}
+.alabian p{
+    position: absolute;
+    left: 89px;
+    bottom: 68%;
+}
+.alabian ul{
+    text-align: left;
+    margin-left: 30px;
+}
+.form input,select{
+    width: 500px;
+    height: 25px; 
+    border-style: solid;
+    border-color: rgb(7, 187, 7);
+}
+.form input[type=radio]{
+    width: 15px;
+    height: 15px;
+}
+.form input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+}
+textarea{
+    width: 500px;
+    height: 200px;
+    border-color: rgb(18, 189, 18);
+}
+#contact{
+    position: relative;
+}
+#contact h2{
+    text-align: 60px;
+    text-transform: uppercase;
+}
+.form{
+    position: absolute;
+    right: 70px;
+    top: 100px;
+    text-align: left ;
+}
+.iframe{
+    position: absolute;
+    left: 20px;
+    top: 90px;
+}
+#table{
+    margin-top: 60%;
+    padding-left: 25%;
+    background-image: url(images/section-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.overlay1{
+    background-color: rgba(62, 24, 231, 0.6);
+    width: 100%;
+    height: 500px;
+}
+#table h2{
+    text-transform: uppercase;
+    text-align: 45%;
+}
+#portfolio{
+    gap: 0px;
+}
